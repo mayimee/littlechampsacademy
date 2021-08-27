@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/littlechampsacademy/static/css/main.889174c1.chunk.css",
+    "main.js": "/littlechampsacademy/static/js/main.1b385b46.chunk.js",
+    "main.js.map": "/littlechampsacademy/static/js/main.1b385b46.chunk.js.map",
+    "runtime-main.js": "/littlechampsacademy/static/js/runtime-main.a6d22f55.js",
+    "runtime-main.js.map": "/littlechampsacademy/static/js/runtime-main.a6d22f55.js.map",
+    "static/css/2.818011ed.chunk.css": "/littlechampsacademy/static/css/2.818011ed.chunk.css",
+    "static/js/2.e2631922.chunk.js": "/littlechampsacademy/static/js/2.e2631922.chunk.js",
+    "static/js/2.e2631922.chunk.js.map": "/littlechampsacademy/static/js/2.e2631922.chunk.js.map",
+    "static/js/3.2a1fdc45.chunk.js": "/littlechampsacademy/static/js/3.2a1fdc45.chunk.js",
+    "static/js/3.2a1fdc45.chunk.js.map": "/littlechampsacademy/static/js/3.2a1fdc45.chunk.js.map",
+    "index.html": "/littlechampsacademy/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/littlechampsacademy/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.889174c1.chunk.css.map": "/littlechampsacademy/static/css/main.889174c1.chunk.css.map",
+    "static/js/2.e2631922.chunk.js.LICENSE.txt": "/littlechampsacademy/static/js/2.e2631922.chunk.js.LICENSE.txt",
+    "static/media/Home_Video.f60a8c0d.mp4": "/littlechampsacademy/static/media/Home_Video.f60a8c0d.mp4",
+    "static/media/App.css": "/littlechampsacademy/static/media/home.d08be87a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6d22f55.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.e2631922.chunk.js",
+    "static/css/main.889174c1.chunk.css",
+    "static/js/main.1b385b46.chunk.js"
+  ]
+}
