@@ -1,0 +1,121 @@
+.chatContainer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border: 1px solid #E7E0C9;
+  border-top-left-radius: 100px;
+}
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.openButton {
+    background: #ffe68f;
+    padding: 16px 20px;
+    position: sticky;
+    width: 20vw;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    border-top-left-radius: 100px;
+  }
+
+  .openButtonLabel1 {
+    color: #fa893c;
+  }
+  
+  .openButtonLabel2 {
+    color: green;
+  }
+  .openButton:hover {
+    background: #FDD2BF;
+  }
+
+  /* The popup chat - hidden by default */
+  .chatPopup {
+    z-index: 2;
+  }
+  
+  /* Add styles to the form container */
+  .formContainer {
+    width: 20vw;
+    background-color: #F2F1F0;;
+  }
+
+  .chatLabel {
+    width: 100%;
+    border: none;
+    background: #F2F1F0;
+    padding: 10px;
+  }
+  
+  /* Full-width textarea */
+  .formContainer textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #F2F1F0;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .formContainer textarea:focus {
+    outline: none;
+  }
+  
+  .submitCloseButtonContainer {
+    display: flex;
+  }
+
+  .sendChatButton {
+    background: #d5ece5;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+  }
+
+  .sendChatButton:hover {
+    background:#B6E2D3;
+  }
+
+  .closeChatButton {
+    background: #f3c3c5;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+
+  .closeChatButton:hover {
+    background: #F36870;
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 1024px) {
+    .openButton, .formContainer, .submitCloseButtonContainer {
+      width: 50vw;
+    }
+  
+    .openButton {
+      width: 50vw;
+      border-radius: 3px;
+      border-top-left-radius: 25px;
+      padding: 2vw;
+    }
+  
+    .openButtonLabel1, .openButtonLabel2 {
+      size: 1vw;
+    }
+  
+    .chatLabel {
+      padding: 2vw;
+    }
+  
+    .chatLabel {
+      font-size: 12px;
+    }
+  
+    .formContainer textarea {
+      font-size: 10px;
+    }
+  }

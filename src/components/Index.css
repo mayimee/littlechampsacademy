@@ -1,0 +1,26 @@
+.homeVideoContainer {
+  height: 70vh;
+  padding-top: 12vh;
+  box-shadow: 0 8px 8px 4px lightblue;
+  position: relative;
+}
+
+.videoContainer {
+  overflow: hidden;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70vh;
+ }
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+  .homeVideoContainer, .videoContainer, video {
+    height: auto;
+  }
+}

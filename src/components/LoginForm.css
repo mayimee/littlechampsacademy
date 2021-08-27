@@ -1,0 +1,120 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App
+{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#f7f7f7;
+}
+
+.innerForm
+{
+  border: 2px solid #fa893c;
+}
+
+.innerForm > input[type="text"]
+{
+  border: 2px solid #fa893c;
+}
+
+form .innerForm
+{
+  display: block;
+  background-color: whitesmoke;
+  padding: 30px;
+  z-index: 2;
+}
+
+form .innerForm h2
+{
+  color: #888;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+form .innerForm .groupForm
+{
+  display: block;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+.innerForm .groupForm label
+{
+  display: block;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 5px;
+  transition: 0.4s;
+}
+
+.innerForm .groupForm:focus-within label
+{
+  color: green;
+}
+
+form .innerForm .groupForm input
+{
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+form .innerForm .groupForm input:focus
+{
+  box-shadow:  0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+form .innerForm input[type="submit"],
+.welcome button
+{
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-size: 200%;
+  background-position: 0%;
+  transition: 0.4s;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+form .innerForm input[type="submit"]:hover,
+.welcome button:hover
+{
+  background-position: 100% 0%;
+}
+
+.welcome
+{
+  width: 100%;
+  max-width: 480px;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.welcome h2 
+{
+  color: orangered;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.welcome h2 span 
+{
+  color: #FE4880;
+  font-weight: 700;
+}

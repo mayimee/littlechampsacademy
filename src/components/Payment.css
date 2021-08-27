@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desForm{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 #65707a, 0 4px 8px 0 #65707a;
+}
+
+h1{
+    text-align: center;
+}
+
+.box1{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0;
+}
+
+.card-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0;
+}
+
+.box3{
+    display: block;
+    width: 180px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px 0 15px 0;
+}
+
+.box4{
+    display: block;
+    width: 270px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.btn-pos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btnPay{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+    font-size: 17px
+}
+
+.btn:hover{
+    background: orange;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        padding: 20px;
+    }
+    form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .div1{
+        display: block;
+    }
+    .box2 .box3 .box4{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

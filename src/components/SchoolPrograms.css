@@ -1,0 +1,81 @@
+.schoolProgramsContainer {
+  height: 30vh;
+  text-align: center;
+  background: #F0D9FF;
+  padding-top: auto;
+  padding-bottom: auto;
+  position: relative;
+  box-shadow: 0 -1px 5px 2px #C9CCD5;
+}
+
+.programContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 10%);
+  width: 100%;
+  justify-content: center;
+}
+
+.iconLabelContainer {
+  display: grid;
+  grid-template-rows: repeat (3, auto);
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.iconLabelContainer:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.programsTagline {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.programIcon {
+  justify-self: center;
+  width: 45px;
+  height: auto;
+}
+
+.iconTitle {
+  font-size: .8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.iconAge {
+  font-size: .8rem;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+
+  .programContainer {
+    grid-template-columns: repeat(4, 24%);
+    padding-bottom: 0;
+  }
+
+  .programsTagline {
+    font-size: 0.8rem;
+    font-weight: bolder;
+    padding: 3vh;
+  }
+
+  .programIcon {
+    width: 40px;
+  }
+
+  .iconTitle {
+    font-size: .7rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  
+  .iconAge {
+    font-size: .6rem;
+  }
+  
+}

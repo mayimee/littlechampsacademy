@@ -1,0 +1,170 @@
+.navbar {
+    display: grid;
+    grid-template-areas: "brand menuIcon navMenu socialMediaContainer";
+    background: #fa893c;
+    height: 12vh;
+    font-size: 1vw;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.brand {
+    grid-area: brand;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25vw;
+}
+
+.logo, .brand {
+    height: 9vh;
+    width: auto;
+}
+
+.navMenu {
+    grid-area: navMenu;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    justify-content: end;
+    width: 65vw;
+    padding-right: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.6vw 0.8vw 0.6vw 0.8vw;
+    font-weight: bolder;
+}
+
+.navLinks:hover {
+    background: white;
+    border-radius: 4px;
+    opacity: 1;
+    transition: all 0.2s ease-out;
+    color: green;
+}
+
+.navButton {
+    text-decoration: none;
+    background: #ffe68f;
+    color: #fa893c;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.6vw 0.8vw 0.6vw 0.8vw;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.navButton:hover {
+    transition: all 0.3s ease-out;
+    background: white;
+    color: green;
+    font-weight: bold;
+    transition: 250ms;
+}
+
+.menuIcon {
+    grid-area: menuIcon;
+    display: none;
+    width: 10vw;
+}
+
+.socialMediaContainer {
+    grid-area: socialMediaContainer;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 25px;
+    width: 10vw;
+}
+
+.socialMediaLogo {
+    width: 2vw;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    z-index: 3;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 1024px) {
+
+    .navbar {
+        height: 12vh;
+        position: fixed;
+        top: 0;
+    }
+
+    .brand {
+        margin-left: 3vw;
+    }
+
+    .logo {
+        margin: auto 0 auto 0;
+        height: 8vh;
+        width: 12vw;
+    }
+
+    .name {
+        margin: auto auto auto 0;
+        height: 8vh;
+        width: 70vw;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        top: 12vh;
+        left: -100%;
+        transition: all 0.5s ease;
+        align-items: center; 
+        padding-bottom: 2vh;    
+    }
+
+    .navMenu.active {
+        background: #fa893c;
+        left: 0;
+        opacity: .75;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .navLinks, .navButton { 
+        font-size: 1.75vh;
+        background: none;
+        padding: 1vh;
+        color: green;
+    }
+   
+    .menuIcon {
+        display: block;
+        position: absolute;
+        top: 4px;
+        right: 4px;
+        transform: translate(-100, 60%);
+    }
+    .fa-times, .fa-bars {
+        color: white;
+        font-size: 1.5rem;
+    }
+}
