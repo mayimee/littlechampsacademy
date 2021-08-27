@@ -29,7 +29,7 @@ function App() {
               <Route exact path='/payment' component={Payment}/>
               <Route exact path='/details/:id' component={Details}/>
               <Route exact path='/confirmationorder' component={ConfirmationProduct}/>
-              <Route exact path='/' component={Index}/>
+              <Route exact path='/littlechampsacademy' component={Index}/>
               <Route exact path='/undermaintenance' component={Maintenance}/>
             </Switch>
             <Chat />
