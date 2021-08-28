@@ -13,14 +13,14 @@ class Navbar extends React.Component {
         return(
             <nav className="navbar">
                 <div className="brand">
-                    <img className="logo" src="/images/Navbar_Logo.png" alt=""/>
-                    <img className="name" src="/images/Navbar_Brandname.png" alt=""/>
+                    <img className="logo" require={('./images/Navbar_Logo.png')} alt=""/>
+                    <img className="name" require={('./images/Navbar_Brandname.png')} alt=""/>
                 </div>
                 <div className="menuIcon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? "navMenu active" : "navMenu"}>
-                    <Link to='/'><li className='navLinks'>Home</li></Link>
+                    <Link to='/littlechampsacademy'><li className='navLinks'>Home</li></Link>
                     <Link to='/undermaintenance'><li className='navLinks'>Curriculum</li></Link>
                     <Link to='/undermaintenance'><li className='navLinks'>Facilities</li></Link>
                     <Link to='/undermaintenance'><li className='navLinks'>Who We Are</li></Link>
