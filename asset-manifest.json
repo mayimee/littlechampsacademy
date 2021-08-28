@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/littlechampsacademy/static/css/main.889174c1.chunk.css",
-    "main.js": "/littlechampsacademy/static/js/main.1b385b46.chunk.js",
-    "main.js.map": "/littlechampsacademy/static/js/main.1b385b46.chunk.js.map",
+    "main.js": "/littlechampsacademy/static/js/main.19ee5042.chunk.js",
+    "main.js.map": "/littlechampsacademy/static/js/main.19ee5042.chunk.js.map",
     "runtime-main.js": "/littlechampsacademy/static/js/runtime-main.a6d22f55.js",
     "runtime-main.js.map": "/littlechampsacademy/static/js/runtime-main.a6d22f55.js.map",
     "static/css/2.818011ed.chunk.css": "/littlechampsacademy/static/css/2.818011ed.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.e2631922.chunk.js",
     "static/css/main.889174c1.chunk.css",
-    "static/js/main.1b385b46.chunk.js"
+    "static/js/main.19ee5042.chunk.js"
   ]
 }
